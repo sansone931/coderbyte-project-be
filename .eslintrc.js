@@ -9,7 +9,6 @@ module.exports = {
   plugins: ['@typescript-eslint', 'import'],
   rules: {
     'max-len': ['warn', { code: 120 }],
-    'no-console': 'warn',
     quotes: ['error', 'single'],
     'no-duplicate-imports': 'error',
     'import/first': 'error',
