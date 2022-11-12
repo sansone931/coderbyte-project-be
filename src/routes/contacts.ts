@@ -39,7 +39,7 @@ contactsRouter.get('/', async (_req, res) => {
   return res.status(200).json(allContacts);
 });
 
-contactsRouter.put('/:id', async (req, res) => {
+contactsRouter.patch('/:id', async (req, res) => {
   try {
     const { id } = req.params;
     const { firstName, lastName, phoneNumber } = req.body;
